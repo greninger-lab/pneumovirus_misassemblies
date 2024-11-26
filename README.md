@@ -17,3 +17,5 @@ In addition targeted sequencing approaches, such as amplicon sequencing, can res
 
 - The analysis for each FASTQ file is organized in folders by viral variant (RSV-A, RSV-B, MPV-111 – containing the 111-nt duplication, and MPV-180 – containing the 180-nt duplication). Each folder contains the indexed, sorted BAM files along with the reference genome used (in FASTA format).
 The name of each BAM file includes the viral variant, the SRA accession number (or "deNovoContigs" for hybrid assemblies), and the reference genome used for mapping with BWA MEM. MPV assemblies were mapped against a reference without duplications (denoted by "no" before the reference name in the BAM file), as well as references containing the 111-nt and 180-nt duplications (identified by the length of the duplication in the reference name for easy organization).
+
+- The file RSV_Trees.zip contains the Nextstrain json files of the RSV-A and RSV-B phylogenetic trees, that can be visualized in https://auspice.us/
